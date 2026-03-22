@@ -342,7 +342,7 @@ nav {
 
 .modal--open .modal__about,
 .modal--open .modal__contact {
-    transform: translateX(0%);
+    transform: translateY(0%);
 }
 
 .modal__about {
@@ -388,7 +388,7 @@ nav {
 .modal__contact {
     background-color: black;
     color: white;
-    transition: translateX(110%);
+    transform: translateX(110%);
 }
 
 .modal__title {
@@ -517,7 +517,7 @@ nav {
 
 .project__wrapper:hover .project__img {
     transform: scale(1.07);
-    filter: blur(3px);
+    filter: blur(5px);
 }
 
 .project__list {
